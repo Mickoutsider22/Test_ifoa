@@ -6,3 +6,5 @@ seaborn
 joblib
 summarytools
 scikit-learn
+openpyxl
+xlsxwriter
