@@ -27,7 +27,8 @@ def load_data():
     df.columns = ['sepal length', 'sepal width', 'petal length', 'petal width', 'class']
     # target=df['class']
     # df['class']=le().fit_transform(target)
-    model_pipe=joblib.load('iris_pipe.pkl')
+    # model_pipe=joblib.load('iris_pipe.pkl')
+    model_pipe=joblib.load(st.file_uploader("insert the pipe model"))
 
     return df,model_pipe
 
